@@ -7,6 +7,7 @@ Previously, I had made the same experiment adapting the project [from ReactJS to
 The code here has the same modularity and is working based on the same principles than ReactJS and Vue.JS. The code indeed looks mostly the same.
 The goal of this experiment was to understand the utility of modern tools like React and Vue.
 
+Note: The code is not much elegant in some parts. It would take me a few more days to reorganize it nicely, but looks like my time will be better spent getting practice in whatever technology the market demands instead of proving that there is an elegant and easy way to do the same without what the market demands.
 
 ## Recommended IDE Setup
 
