@@ -170,9 +170,9 @@ export function force_bet(state: GameState,player_id: number, amount: number)
 
 export function computer_bet(state: GameState,player_id: number)
 {
-    const audio = new Audio("./sounds/158166-Door-Wood-Bathroom-Exterior_POV-Knock-x2-Concise.mp3")
-    const audio2 = new Audio("./sounds/201805__fartheststar__poker-chips3.wav")
-    const audio3 = new Audio("./sounds/201807__fartheststar__poker-chips1.wav")
+    //const audio = new Audio("./sounds/158166-Door-Wood-Bathroom-Exterior_POV-Knock-x2-Concise.mp3")
+    //const audio2 = new Audio("./sounds/201805__fartheststar__poker-chips3.wav")
+    //const audio3 = new Audio("./sounds/201807__fartheststar__poker-chips1.wav")
     let bet=state.call-state.players[player_id].bet
     let plus=0
     if(bet>0)
@@ -226,7 +226,7 @@ export function raise(state: GameState, amount: number)
     return state
 }
 
-export function human_bet(state: GameState,player_id: number)
+export function human_bet(state: GameState)
 {
     return state
 }

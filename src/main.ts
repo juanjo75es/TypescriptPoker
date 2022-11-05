@@ -168,9 +168,9 @@ function interval(){
     }
     console.log("useEffect "+globals.state.stage)    
   }
-  mytimeout=setTimeout(interval,l)
+  setTimeout(interval,l)
 }
 
 game_logic()
-let mytimeout=setTimeout(interval,500)
+setTimeout(interval,500)
 
